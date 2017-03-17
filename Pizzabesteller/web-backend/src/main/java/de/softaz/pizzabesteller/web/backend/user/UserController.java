@@ -1,4 +1,7 @@
-package de.softaz.pizzabesteller.web.backend;
+package de.softaz.pizzabesteller.web.backend.user;
+
+import de.softaz.pizzabesteller.web.backend.ResponseError;
+import de.softaz.pizzabesteller.web.backend.User;
 
 import static de.softaz.pizzabesteller.web.backend.JsonUtil.json;
 import static de.softaz.pizzabesteller.web.backend.JsonUtil.toJson;

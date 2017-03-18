@@ -1,4 +1,4 @@
-package de.softaz.pizzabesteller.web.backend;
+package de.softaz.pizzabesteller.web.backend.user;
 
 /**
  * Created by pike-perch on 17.03.2017.

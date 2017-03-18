@@ -1,7 +1,5 @@
 package de.softaz.pizzabesteller.web.backend.user;
 
-import de.softaz.pizzabesteller.web.backend.User;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -36,4 +34,13 @@ public class UserService {
         updatedUser.setName(name);
         return updatedUser;
     }
+
+    public User getUser(String id) {
+        try {
+            return getUser(new Long(id));
+        } catch (NumberFormatException e) {
+            throw new NumberFormatException(String.format("Given userId '%s' is not a valid number", id));
+        }
+    }
 }
+
